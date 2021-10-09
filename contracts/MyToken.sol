@@ -2,9 +2,10 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
 
-contract GLDToken is ERC20 {
-    constructor(uint256 initialSupply) ERC20("Gold", "GLD") {
+contract MyToken is ERC20 {
+    constructor(uint256 initialSupply) ERC20("StarDucks Cappucino Token", "CAPPU", 0) {
         _mint(msg.sender, initialSupply);
     }
 }
