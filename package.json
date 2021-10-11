@@ -1,0 +1,27 @@
+{
+  "name": "tokenization",
+  "version": "1.0.0",
+  "description": "Setup:  sudo npm install -g truffle         truffle unbox react",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgor/Tokenization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgor/Tokenization/issues"
+  },
+  "homepage": "https://github.com/iamgor/Tokenization#readme",
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.3.2"
+  }
+}
